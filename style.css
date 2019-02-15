@@ -1,0 +1,16 @@
+p{
+	color:blue;
+	text-align: center;
+}
+#color,#color1{
+	color:yellow;
+}
+.radha{
+	color:red;
+	text-align:center;
+}
+div{
+	background:pink;
+	text-align:right;
+	color:red;
+}

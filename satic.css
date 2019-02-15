@@ -1,0 +1,92 @@
+body{
+	background: aqua;
+}
+.maindiv{
+	background: pink;
+	display: flex;
+	justify-content: space-around;
+	margin: 10%;
+}
+.leftdiv{
+	background:orange;
+	margin: 4%;
+	border-radius: 4%;
+	width: 25%;
+	box-shadow: 4px 4px 4px 4px;
+	text-align:center;
+	height:45%;
+   }
+ .rightdiv{
+    background:gray;
+	margin: 4%;
+	border-radius: 4%;
+	width: 75%;
+	box-shadow: 4px 4px 4px 4px;
+	padding: 2%;
+ } 
+
+ /*mobile view*/
+ @media screen and (min-width: 320px) and (max-width: 480px) {
+  body{
+	background: red;
+}
+.maindiv{
+	background: orange;
+	display:inline-block;
+	justify-content: space-around;
+	margin: 10%;
+}
+.leftdiv{
+	background:yellow;
+	margin: 4%;
+	border-radius: 4%;
+	width: 90%;
+	box-shadow: 4px 4px 4px 4px;
+	text-align:center;
+	height:45%;
+   }
+ .rightdiv{
+    background:pink;
+	margin: 4%;
+	border-radius: 4%;
+	width: 90%;
+	box-shadow: 4px 4px 4px 4px;
+	padding: 2%;
+ } 
+}
+ /*tablet view*/
+ @media screen and (min-width: 480px) and (max-width: 680px) {
+  body{
+	background:red;
+}
+.maindiv{
+	background:green;
+	display:inline-block;
+	justify-content: space-around;
+	margin: 10%;
+}
+.leftdiv{
+	background:pink;
+	margin: 4%;
+	border-radius: 4%;
+	width: 90%;
+	box-shadow: 4px 4px 4px 4px;
+	text-align:center;
+	height:45%;
+   }
+ .rightdiv{
+    background:blue;
+	margin: 4%;
+	border-radius: 4%;
+	width: 90%;
+	box-shadow: 4px 4px 4px 4px;
+	padding: 2%;
+	word-wrap:break-word;
+ }
+ .div2{
+ 	background:gray;
+ 	color: red;
+ 	display: flex;
+ 	flex-wrap: wrap;
+ } 	
+}
